@@ -1,0 +1,66 @@
+:root {
+    --blue-color: #2196F3;
+    --title-color: #212121;
+    --text-color: #757575;
+    --white-color: #FFFFFF;
+    --studio-color: #000000;
+    --bg-color: #F5F5F5;
+    --second-bg-color: #F5F4FA;
+    --first-block-color: #2F303A;
+    --border-coolor: #ECECEC;
+    --border-pf-color: #EEEEEE;
+    --client-color: #AFB1B8;
+    --main-font: 'Roboto', sans-serif;
+    --second-fond: 'Raleway', sans-serif;
+
+}
+
+body {
+    font-family: var(--main-font, 'Roboto', sans-serif);
+    background-color: var(--white-color);
+    color: var(--title-color);
+}
+
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section {
+    padding: 94px 0;
+}
+
+.invisible-title {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+.svg {
+    width: 20px;
+    height: 20px;
+}
